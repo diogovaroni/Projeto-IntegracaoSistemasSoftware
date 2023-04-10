@@ -10,6 +10,6 @@ namespace api_curso_cs.Models
         public string Nome { get; set; }
 
         [Required]
-        public string Descricao { get; set; }
+        public string Nivel { get; set; }
     }
 }
