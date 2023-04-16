@@ -48,9 +48,34 @@ namespace api_curso_cs.Controllers
             return CreatedAtAction(nameof(GetById), new { id = curso.Id }, curso);
         }
 
-        //Criar Método PUT
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Curso curso)
+        {
+            if (id != curso.Id)
+            {
+                return BadRequest();
+            }
 
+            _context.Entry(curso).State = EntityState.Modified;
+            _context.SaveChanges();
 
-        //Criar Método DELETE
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var curso = _context.Cursos.Find(id);
+
+            if (curso == null)
+            {
+                return NotFound();
+            }
+
+            _context.Cursos.Remove(curso);
+            _context.SaveChanges();
+
+            return NoContent();
+        }
     }
 }
