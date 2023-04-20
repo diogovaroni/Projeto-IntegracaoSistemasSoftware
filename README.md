@@ -81,4 +81,14 @@ Verifique o seu SDK do dotnet:
 }
 
 Atualize o final “5.0. “pois ao executar o comando dotnet new globaljson --sdk-version 5.0.100 irá trazer a versão 5.0.100 e conforme você instalar o dotnet 5, verifique a versão da sua SDK com o comando: dotnet restore
+12° Instalou-se o Swashbuckle com o comando:
+
+dotnet add package Swashbuckle.AspNetCore
+
+13° Após o comando executado, no navegador de internet digitou o seguinte caminho:
+
+https://localhost:5001/swagger/index.html
+
+14° Com isso é possível testar a API
+
 
