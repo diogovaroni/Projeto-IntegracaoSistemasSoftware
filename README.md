@@ -1,7 +1,7 @@
 WEB API - ASP.NET 5.0 - VS Code
 ALUNO: DANIEL DE OLIVEIRA LAMBERG
 ALUNO: DIOGO VARONI DE MOURA
-ALUNO: GABRIEL
+ALUNO: GABRIEL TAVARES DOS SANTOS
 TURMA: INTEGRAÇÃO DE SISTEMAS DE SOFTWARE - QUINTA-FEIRA - 19:00 - 21:50
 DOCUMENTAÇÃO SOBRE O PROJETO DE WEB API
 	O nosso sistema consiste em um cadastro de cursos em uma escola e a matrícula de alunos nesses cursos. Ao fazer a matrícula, será gerado um boleto que irá para o e-mail do aluno. A aplicação de cadastro de cursos fará uma integração com o banco de dados MySQL. 
