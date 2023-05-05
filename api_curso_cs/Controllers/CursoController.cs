@@ -16,6 +16,9 @@ namespace api_curso_cs.Controllers
         public CursoController(CursoContext context)
         {
             _context = context;
+            
+            //Comando que garante que o banco de dados foi criado
+            _context.Database.EnsureCreated();
         }
 
         [HttpGet]
