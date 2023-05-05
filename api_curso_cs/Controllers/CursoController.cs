@@ -42,11 +42,16 @@ namespace api_curso_cs.Controllers
         [HttpPost]
         public ActionResult<Curso> Post(Curso curso)
         {
+            if (_context.Cursos.Any(c => c.Id == curso.Id))
+            {
+                return Conflict("Já existe um curso com o mesmo ID.");
+            }
             _context.Cursos.Add(curso);
             _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetById), new { id = curso.Id }, curso);
         }
+        
 
         [HttpPut("{id}")]
         public IActionResult Put(int id, Curso curso)
