@@ -6594,11 +6594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\Projeto\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
+      "projectUniqueName": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\final\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
       "projectName": "api_curso_cs",
-      "projectPath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\Projeto\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
+      "projectPath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\final\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
       "packagesPath": "C:\\Users\\varon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\Projeto\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\obj\\",
+      "outputPath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\final\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

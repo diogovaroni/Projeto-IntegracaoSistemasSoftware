@@ -36,8 +36,7 @@ app.post('/alunos', async (req, res) => {
 });
 
 app.get('/alunos', (req, res) => {
-  // Aqui você pode criar um array para armazenar os alunos cadastrados
-  // ou simplesmente retornar um array vazio, já que os alunos não precisam ser guardados em banco de dados
+  
   const alunos = [];
 
   // Retorna o array com os alunos cadastrados
@@ -46,9 +45,6 @@ app.get('/alunos', (req, res) => {
 
 app.get('/alunos/:id', (req, res) => {
   const id = req.params.id;
-
-  // Aqui você pode buscar o aluno pelo ID no array criado no passo 9 ou simplesmente retornar um aluno padrão
-  //const aluno = { id: 1, idCurso: 1, nome: 'João', email: 'joao@gmail.com' };
 
   // Retorna o aluno encontrado ou um erro caso não exista um aluno com o ID informado
   if (aluno.id === id) {

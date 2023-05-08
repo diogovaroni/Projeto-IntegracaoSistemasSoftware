@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENUxVVJJoFvoVoZ/4nzPrZtJm6sYmDm5aAVGq8v68B80Q/TAWX9IGRI6wJ9N+tdG5xfAM2gexc3fiZtQoHrJ+Q==",
+  "dgSpecHash": "uafvUf7y9BgxZIzHeHaE31l9wCI9QNh+dv1LpQl2Au5L8z73s+exjOhw7FCEiqbWU0pojLiWSmPDf09PdqFsJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\Projeto\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
+  "projectFilePath": "C:\\Users\\varon\\Documents\\workspace\\2023-01\\final\\Projeto-IntegracaoSistemasSoftware\\api_curso_cs\\api_curso_cs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varon\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\varon\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
