@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.post('/alunos', async (req, res) => {
   const { id, idCurso, nome, email } = req.body;
 
-  // Faz a integração com a API em C# para verificar se o curso foi cadastrado
+  // Usando Axios para fazer a integração com a API em C# para verificar se o curso foi cadastrado
   try {
     const response = await
     axios.get(`http://localhost:5000/api/curso/${idCurso}`, {
