@@ -1,0 +1,27 @@
+### Listar cursos
+GET http://localhost:3000/curso
+
+### Buscar curso por id
+GET http://localhost:3000/curso/2
+
+### Cadastrar cursos
+POST http://localhost:3000/curso
+Content-Type: application/json
+
+{
+    "nome" : "C++",
+    "nivel" : "Intermediário"
+}
+
+### Deletar cursos
+DELETE http://localhost:3000/curso/2
+
+### Alterar cursos
+PUT http://localhost:3000/curso
+Content-Type: application/json
+
+{
+   "id" : 1,
+   "nome" : "Algoritmo",
+   "nivel" : "Intermediário"
+}
